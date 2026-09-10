@@ -1,9 +1,9 @@
 name: Benchmarking
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
 
   # allow manually starting this workflow
   workflow_dispatch:
