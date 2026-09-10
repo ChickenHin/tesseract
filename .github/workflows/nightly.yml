@@ -3,8 +3,8 @@ name: Nightly
 on:
   pull_request:
     types: [labeled]
-  schedule:
-    - cron: '0 5 * * *'
+  # schedule:
+  #   - cron: '0 5 * * *'
 
   # allow manually starting this workflow
   workflow_dispatch:
