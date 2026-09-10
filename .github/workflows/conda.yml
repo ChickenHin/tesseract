@@ -1,14 +1,14 @@
 name: Conda
 
 on:
-  push:
-    branches:
-      - master
-      - 'dev**'
+  # push:
+  #   branches:
+  #     - master
+  #     - 'dev**'
   pull_request:
-  release:
-    types:
-      - released
+  # release:
+  #   types:
+  #     - released
 
 # Supersede in-progress pull-request runs; queue everything else so two runs on one ref never race.
 concurrency:
