@@ -1,13 +1,13 @@
 name: Mac OSX
 
 on:
-  push:
-    branches:
-      - master
-      - 'dev**'
-  pull_request:
-  schedule:
-    - cron: '0 5 * * *'
+  # push:
+  #   branches:
+  #     - master
+  #     - 'dev**'
+  # pull_request:
+  # schedule:
+  #   - cron: '0 5 * * *'
   release:
     types:
       - released
